@@ -16,6 +16,10 @@
 .lists ul li a i {
     display: none;
 }
+.logindrp , .signup {
+    margin: 0px;
+    
+}
 .main{
     height: 200px;
     background-image: url(./images/foodbanner.png);
