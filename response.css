@@ -1,0 +1,56 @@
+/* RESPONSE */
+.lists{
+    flex-shrink: 1;
+
+}
+.lists ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 4px 4px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 0.6em;
+    color: white;
+}
+.lists ul li a i {
+    display: none;
+}
+.main{
+    height: 200px;
+    background-image: url(./images/foodbanner.png);
+    background-size: cover;
+}
+.registerButton{
+    font-size: 0.9em;
+    border-radius: 20px;
+    color: black;
+    padding: 5px;
+    position:relative;
+    top:120px;
+    left: 15px;
+ }
+
+.services2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 900px;
+
+}
+.services {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.footer {
+        /* height: 200px; */
+        background-color: orange;
+        display: flex;
+        justify-content: center;
+    }
